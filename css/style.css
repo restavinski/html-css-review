@@ -14,7 +14,6 @@ body {
   margin: 0 auto;
   padding: 0 2em;
 }
-
 /* headings */
 
 #company-name {
@@ -30,4 +29,20 @@ body {
 
 #header {
   background-color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  text-decoration: none;
+  color: #dec9e9;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: white;
 }
