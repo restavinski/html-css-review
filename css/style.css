@@ -4,22 +4,13 @@
 
 body {
   font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  /*color: #fff; */
+  line-height: 1.5;
 }
 
-h1 {
-  color: white;
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
 }
 
-header {
-  background-color: black;
-  color: white;
-  font-family: nunito;
-}
-
-span {
-  margin-left: auto;
-}
-
-main {
-  background-image: im;
-}
