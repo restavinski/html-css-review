@@ -69,3 +69,12 @@ nav ul li a:focus {
   justify-content: space-between;
   align-items: center;
 }
+ 
+#intro {
+  background-color: #7251b5;
+  color: white;
+}
+
+#intro p {
+  max-width: 50%;
+}
