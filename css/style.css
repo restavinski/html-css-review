@@ -46,3 +46,17 @@ nav ul li a:hover,
 nav ul li a:focus {
   color: white;
 }
+
+#hero-banner {
+  height: 60vh;
+  background-color: blueviolet;
+  background-image: url(../images/ice-cream-cones.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#header > div {
+  display: flex;
+  justify-content: space-between;
+}
