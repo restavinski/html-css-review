@@ -34,6 +34,11 @@ body {
 nav ul {
   list-style-type: none;
   padding-left: 0;
+  display: flex;
+}
+
+nav ul li {
+  padding-left: 1.125em;
 }
 
 nav ul li a:link,
@@ -53,10 +58,14 @@ nav ul li a:focus {
   background-image: url(../images/ice-cream-cones.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #header > div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
