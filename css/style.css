@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Nunito', Arial, Helvetica, sans-serif;
-  /*color: #fff; */
+  color: #fff;
   line-height: 1.5;
   margin: 0;
 }
@@ -72,9 +72,26 @@ nav ul li a:focus {
  
 #intro {
   background-color: #7251b5;
-  color: white;
 }
 
 #intro p {
   max-width: 50%;
+}
+
+#fan-fav {
+  background-color: black;
+  color: #dec9e9;
+}
+
+#fan-fav ol {
+  list-style-type: none;
+  padding-left: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#fan-fav li {
+  width: 50%;
+  padding-right: 15%;
 }
