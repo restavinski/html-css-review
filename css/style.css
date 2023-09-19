@@ -144,3 +144,9 @@ footer {
 .team-grid p {
   margin-top: .25em;
 }
+
+.wrapper h1 {
+  font-family: 'Wix Madefor Display', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
